@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.customers {
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  width: 80vw;
+}
+
+.customers div {
+  text-align: center;
+  flex: 1 1 20%;
+  padding: 20px;
+}
+.name {
+  font-weight: 500;
+  font-size: 1rem;
+  border-bottom: 2px solid green;
+  padding: 10px;
+}
+img {
+  width: calc(100% - 10px);
+}
